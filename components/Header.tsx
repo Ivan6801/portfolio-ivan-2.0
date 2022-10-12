@@ -28,18 +28,21 @@ export default function Header({}: Props) {
           network="github"
           fgColor="white"
           bgColor="gray"
+          style={{ height: 40, width: 40 }}
         />
         <SocialIcon
           className="m-3"
           network="twitter"
           fgColor="white"
           bgColor="gray"
+          style={{ height: 40, width: 40 }}
         />
         <SocialIcon
           className="m-3"
           network="linkedin"
           fgColor="white"
           bgColor="gray"
+          style={{ height: 40, width: 40 }}
         />
       </motion.div>
       <motion.div
